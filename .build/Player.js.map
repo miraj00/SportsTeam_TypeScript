@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../Player.ts"],
+  "sourcesContent": ["export interface Player {\n  name: string;\n  jersey: number;\n  active: boolean;\n\n  // interfaces can't have constructor\n}"],
+  "mappings": ";;;;;;;;;;;;;;AAAA;AAAA;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../index.ts"],
+  "sourcesContent": ["import { Player } from \"./Player\";\nimport { Team } from \"./Team\";\n\nlet z = { name: \"Zack Morris\", jersey: 42};\nlet p = { name: \"Cal Ripken\", jersey: 12 };\nlet q = { name: \"Jack Sparrow\", jersey: 55 };\nlet r = { name: \"Tim Martin\", jersey: 42};\n      \n\nconsole.log(p);\n\nlet t: Team = new Team(\"The pidgeons\");\n// add player\nt.addPlayer(z);\nt.addPlayer(p);\nt.addPlayer(q);\nt.addPlayer(r);\n\nconsole.log(t);\n\n// // remove player\n// t.removePlayer(0);\n// console.log(t);\n\nt.setActive(0);\nt.setActive(2);\nconsole.log(t);\n\nconsole.log(t.getPlayerCount());\n\nt.logActivePlayers ();\n\nt.getActivePlayers();\n\nconsole.log(t);\nt.removePlayerByName(\"Tim Martin\");\nconsole.log(t);\n\nt.sortByName();"],
+  "mappings": ";AACA,kBAAqB;AAErB,IAAI,IAAI,EAAE,MAAM,eAAe,QAAQ,GAAE;AACzC,IAAI,IAAI,EAAE,MAAM,cAAc,QAAQ,GAAG;AACzC,IAAI,IAAI,EAAE,MAAM,gBAAgB,QAAQ,GAAG;AAC3C,IAAI,IAAI,EAAE,MAAM,cAAc,QAAQ,GAAE;AAGxC,QAAQ,IAAI,CAAC;AAEb,IAAI,IAAU,IAAI,iBAAK,cAAc;AAErC,EAAE,UAAU,CAAC;AACb,EAAE,UAAU,CAAC;AACb,EAAE,UAAU,CAAC;AACb,EAAE,UAAU,CAAC;AAEb,QAAQ,IAAI,CAAC;AAMb,EAAE,UAAU,CAAC;AACb,EAAE,UAAU,CAAC;AACb,QAAQ,IAAI,CAAC;AAEb,QAAQ,IAAI,EAAE,eAAe,CAAC;AAE9B,EAAE,iBAAkB;AAEpB,EAAE,iBAAiB;AAEnB,QAAQ,IAAI,CAAC;AACb,EAAE,mBAAmB,YAAY;AACjC,QAAQ,IAAI,CAAC;AAEb,EAAE,WAAW;",
+  "names": []
+}
